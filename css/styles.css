@@ -23,16 +23,17 @@ html {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 2rem;
 }
 
 body {
   font-family: var(--font);
+  background-color: var(--bg-main);
   color: var(--text-color);
 }
 
 h1,
-h2 {
+h2,
+p {
   font-weight: 600;
   margin: 0;
 }
@@ -47,9 +48,21 @@ h2 {
 
 p {
   font-size: 1.6rem; /* 16px */
+  font-weight: 400;
 }
 
 a {
   color: var(--links);
   text-decoration: none;
 }
+
+.header {
+  background-color: var(--bg-header);
+  text-align: center;
+  padding: 3rem;
+}
+.header p {
+  margin-top: 2rem;
+}
+
+
