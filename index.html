@@ -8,6 +8,11 @@
       href="resources/favicon.ico"
       type="image/x-icon"
       sizes="96x96"
+      alt="Favicon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,17 +24,18 @@
     <title>Simple FAQ | devChallenges.io</title>
   </head>
   <body>
-    <header class="header ">
+    <header class="header">
       <div class="container">
         <h1>Frequently Asked Questions</h1>
         <p>Browse through the most frequently asked questions</p>
       </div>
     </header>
+
     <main class="main">
       <section class="question">
         <h2>How can I track my order?</h2>
         <p>You can track your order using the following steps</p>
-        <ol>
+        <ol class="question__ol">
           <li>Go to the Order <a href="#">Tracking page.</a></li>
           <li>Enter your order number and email address.</li>
           <li>
@@ -42,33 +48,35 @@
           <a href="#">Help Center</a>.
         </p>
       </section>
+
       <section class="question">
         <h2>What is your return policy?</h2>
         <p>
           We offer a 30-day return policy on most items. Here are some key
           points
         </p>
-        <ul>
+        <ul class="question__ul">
           <li>
             <span>Items must be in original condition: </span>Unworn, unused,
             and unwashed.
           </li>
           <li>
             <span>Include original packaging and tags: </span>All items should
-            be returned with their original packaging and tags.
+            be returned with their <br />
+            original packaging and tags.
           </li>
           <li>
             <span>Proof of purchase: </span>A receipt or proof of purchase is
             required.
           </li>
-          <p>
-            For more detailed information, read our full
-            <a href="#">Return Policy</a>.
-          </p>
         </ul>
+        <p>
+          For more detailed information, read our full
+          <a href="#">Return Policy</a>.
+        </p>
       </section>
     </main>
-    <footer class="author-info">
+    <footer class="footer container">
       <p>
         Coded by <a href="#">Dunston Madariaga</a> | Challenge by
         <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
